@@ -41,7 +41,7 @@ public class CashSCION {
     driver.findElement(By.id("password")).sendKeys("qa");
     driver.findElement(By.name("submit")).click();
     driver.findElement(By.cssSelector("div.newLeadList")).click();
-    driver.findElement(By.id("tabResidential")).click();
+   // driver.findElement(By.id("tabResidential")).click();
     driver.findElement(By.id("firstNameResidential")).clear();
     driver.findElement(By.id("firstNameResidential")).sendKeys("christian");
     driver.findElement(By.id("lastNameResidential")).clear();
